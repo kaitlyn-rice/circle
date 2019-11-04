@@ -140,6 +140,6 @@ public class Circle {
 
     // you are welcome to add more helper methods if needed
     public double round(double num) {
-         return Math.round(num * 100.000) / 100.000; //rounds to 3 decimal places
+         return Math.round(num * 1000.0) / 1000.0; //rounds to 3 decimal places
     }
 }
